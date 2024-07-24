@@ -4,11 +4,7 @@
 	"name": "Java & PostgreSQL",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-	"features": {
-		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/duduribeiro/devcontainer-features/tmux:1": {}
-	}
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {}
