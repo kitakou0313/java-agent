@@ -1,8 +1,12 @@
+import injectClass.TestClass;
+
 /**
  * Main
  */
+
 public class Main {
     public static void main(String[] args) {
-        System.err.println("Hello world!");
+        TestClass testClass = new TestClass(1000);
+        testClass.printParam();
     }
 }
