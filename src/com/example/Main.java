@@ -1,4 +1,6 @@
-import injectClass.TestClass;
+package com.example;
+
+import com.example.injectClass.TestClass;
 
 /**
  * Main

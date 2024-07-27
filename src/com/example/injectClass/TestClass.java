@@ -1,4 +1,4 @@
-package injectClass;
+package com.example.injectClass;
 
 public class TestClass {
     private int param;

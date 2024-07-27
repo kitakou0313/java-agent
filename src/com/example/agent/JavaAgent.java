@@ -1,4 +1,5 @@
-package agent;
+package com.example.agent;
+
 import java.lang.instrument.Instrumentation;
 
 public class JavaAgent {
