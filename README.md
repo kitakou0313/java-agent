@@ -10,12 +10,15 @@ javaagentの学習
 ```
 jar --create --verbose --file build/injectedApp.jar --main-class com/example/Main -C class/ .
 jar --create --verbose --file build/javaAgent.jar --main-class com/example/agent/JavaAgent -C class/ .
+jar --create --verbose --file build/javaAgent.jar --manifest src/com/example/resources/MANIFEST.MF -C class/ .
 ```
 
 ### 実行
 ```
-java -jar  build/injectedApp.jar 
-java -jar  build/javaAgent.jar 
+java -jar build/injectedApp.jar
+java -jar build/javaAgent.jar
+
+java -javaagent:build/javaAgent.jar -jar build/injectedApp.jar
 ```
 
 
