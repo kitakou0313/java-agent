@@ -1,0 +1,2 @@
+Premain-Class: com.example.agent.JavaAgent
+Agent-Class: com.example.agent.JavaAgent
