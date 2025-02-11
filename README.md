@@ -3,6 +3,7 @@ javaagentの学習
 
 
 # 開発用コマンド
+Classファイルの生成 -> Executable jarを生成 というフローで生成する
 
 ## Classファイルの生成時
 
@@ -31,10 +32,4 @@ java -jar build/injectedApp.jar
 java -jar build/javaAgent.jar
 java -jar build/threadLocalValue.jar 
 java -javaagent:build/javaAgent.jar -jar build/injectedApp.jar
-```
-
-### 実行時
-
-```
-java -cp ./class:./class/com/example:./class/com/example/injectClass com/example/Main
 ```
